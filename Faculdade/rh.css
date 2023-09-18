@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(51, 157, 255);
+}
+.img
+{
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 35%;
+    border-radius: 20px;
+}
+.img2
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 40%;
+}
+label
+{
+    font-size: 1.5em;
+    color: #2c4766;
+}
+input
+{
+    width: 10%;
+    height: 25px;
+    background: transparent;
+    border: 2px solid #2c4766;
+    outline: none;
+    border-radius: 40px;
+    transition: .5s ease;
+    text-align: center;
+}
+.img3
+{
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 35%;
+}
+.img4
+{
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 35%;
+}
+.menu
+{
+    background: blue;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.menu:hover
+{
+    background: aliceblue;
+    color: blue;
+    font-weight: bold;
+}
+.btn
+{
+    cursor: pointer;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 30%;
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    border-color: blue;
+    color: #fff;
+    box-shadow: 0 0 40px 40px dodgerblue inset, 0 0 0 0 dodgerblue;
+    transition: .3s ease-in-out;
+}
+.btn:hover
+{
+    box-shadow: 0 0 10px 0 dodgerblue inset, 0 0 10px 4px dodgerblue;
+    color: #f781f8;
+    border-radius: 10px;
+};
+.ajust
+{
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px, solid black;
+}
+.p
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+section 
+{
+    padding: 40px 0;
+}
+section p 
+{
+    font-size: 18px;
+}
+section h3 
+{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.banner 
+{
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+}
+.container 
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.contact-links 
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-links li 
+{
+    display: inline;
+    margin-right: 20px;
+}
+
+.contact-links li:last-child 
+{
+    margin-right: 0;
+}
+
+.contact-links a 
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.insta a:hover 
+{
+  background-image: linear-gradient(to bottom, red, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+}
+.git a:hover 
+{
+    color: #000000;
+}
+.whats a:hover 
+{
+    color: #0b8d11;
+}
+.link a:hover 
+{
+    color: blue;
+}
+footer 
+{
+    background-color: rgb(10, 49, 88);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+}

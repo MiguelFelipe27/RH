@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rescisão</title>
+    <link rel="icon" type="image/jpg" href="rh.jpg">
+    <link rel="stylesheet" href="rh.css">
+</head>
+<body>
+    <nav>
+        <a href="rh.html" class="menu">HOME</a>
+        <a href="rh2.html" class="menu">CALCULAR SALÁRIO LÍQUIDO</a>
+        <a href="rh3.html" class="menu">FÉRIAS</a>
+        <a href="rh4.html" class="menu">RECISÃO</a>
+    </nav>
+    <div>
+        <br><br>
+        <label for="num1">Digite seu salário mensal:</label>
+        <input type="number" id="salario_rescisao" name="num2" placeholder="00.00"><br><br>
+        <label for="num1">Digite a quantidade de meses trabalhados no ano:</label>
+        <input type="number" id="meses_trabalhados" name="num2" placeholder="00.00" style="border-radius: 25px;"><br><br>
+        <label for="num1">Digite a quantidade de dias trabalhados:</label>
+        <input type="number" id="dias_trabalhados" name="num2" placeholder="00.00" style="border-radius: 25px;"><br><br>
+        <label for="num1">Digite a quantidade de anos trabalhados:</label>
+        <input type="number" id="anos_trabalhados" name="num2" placeholder="00.00" style="border-radius: 25px;"><br><br>
+        <button class="btn" onclick="calcularRescisao()">CALCULAR</button><br><br>
+
+    <p class = "p">Salário:</p>
+    <p id="resp_salario"></p>
+    <p class = "p">Férias Proporcionais:</p>
+    <p id="resp_ferias"></p>
+    <p class = "p">Décimo Terceiro Proporcional:</p>
+    <p id="resp_decimoTerceiro"></p>
+    <p class = "p">Aviso Prévio Indenizado:</p>
+    <p id="resp_aviso"></p>
+    <p class = "p">FGTS:</p>
+    <p id="resp_fgts"></p>
+    </div>
+    <img src="rh4.jpg" class="img4">
+    <script src="rhr.js"></script>
+</body>
+</html>

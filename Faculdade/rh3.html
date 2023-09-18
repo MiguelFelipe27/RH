@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Férias</title>
+    <link rel="icon" type="image/jpg" href="rh.jpg">
+    <link rel="stylesheet" href="rh.css">
+</head>
+<body>
+    <nav>
+        <a href="rh.html" class="menu">HOME</a>
+        <a href="rh2.html" class="menu">CALCULAR SALÁRIO LÍQUIDO</a>
+        <a href="rh3.html" class="menu">FÉRIAS</a>
+        <a href="rh4.html" class="menu">RESCISÃO</a>
+    </nav>
+    <div>
+        <br><br>
+        <label for="num1">Digite seu salário:</label>
+        <input type="number" id="salario_ferias" name="num2" placeholder="00.00"><br><br>
+        <label for="num1">Informe a quantidade de dias:</label>
+        <input type="number" id="dias_ferias" name="num2" placeholder="00.00" style="border-radius: 25px;"><br><br>
+        <button class="btn" onclick="ferias()">CALCULAR</button><br><br>
+    <p class = "p">Salário:</p>
+    <p id="resp"></p>
+    </div>
+    <img src="rh3.jpg" class="img3">
+    <script src="rhf.js"></script>
+</body>
+</html>
